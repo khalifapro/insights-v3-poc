@@ -1,0 +1,21 @@
+<div class="projectitemelment">
+    <img src={{project.logo}} alt="" class="projectimage">
+    <h4>{{ project.name }}</h4>
+    <p>sub projects: {{ project.subProjects }}</p>
+    <div>
+        <div class="innercon">
+            <p> Commits:</p>
+            <p> {{ project.commits }}</p>
+        </div>
+        <div class="innercon">
+            <p> contributors: </p>
+            <p>{{ project.contributors }}</p>
+        </div>
+    </div>
+
+    
+    <p>pulls/changesets: {{ project.pullrequests }}</p>
+    <p> LOC: {{ project.linesOfCode }}</p>
+
+
+</div>

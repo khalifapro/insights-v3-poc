@@ -1,0 +1,28 @@
+.projectitemelment{
+    width: 45%;
+    height: 400px;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1%;
+    background-color: white;
+    float:left;
+    text-align: center;
+}
+
+.projectimage{
+    max-width: 100%;
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+
+.innercon{
+    width: 45%;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    background-color: rgba(103, 103, 187, 0.5);
+    border-radius: 2%;
+
+}
