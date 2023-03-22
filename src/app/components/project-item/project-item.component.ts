@@ -15,7 +15,6 @@ export class ProjectItemComponent implements OnInit {
   @Input() project: Project;
 
 
-  
   ngOnInit(): void {
     
   }
